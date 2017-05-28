@@ -1,4 +1,4 @@
-package com.jalkal.noboot.config.com.jalkal.noboot;
+package com.jalkal.noboot;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
