@@ -2,6 +2,6 @@ package com.jalkal.noboot;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Integer>
+public interface CustomerRepository extends JpaRepository<Customer, Integer>
 {
 }

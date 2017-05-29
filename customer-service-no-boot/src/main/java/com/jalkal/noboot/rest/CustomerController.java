@@ -1,6 +1,6 @@
 package com.jalkal.noboot.rest;
 
-import com.jalkal.noboot.UserRepository;
+import com.jalkal.noboot.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class CustomerController
 {
     @Autowired
-    UserRepository userRepo;
+    CustomerRepository customerRepository;
     @RequestMapping("/")
     public String home(Model model)
     {
-        model.addAttribute("users", userRepo.findAll());
+        model.addAttribute("customers", customerRepository.findAll());
         return "index";
     }
 }

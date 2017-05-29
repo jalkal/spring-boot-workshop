@@ -55,7 +55,7 @@ public class AppConfig
         vendorAdapter.setShowSql(Boolean.TRUE);
         factory.setDataSource(dataSource());
         factory.setJpaVendorAdapter(vendorAdapter);
-        factory.setPackagesToScan("com.sivalabs.demo");
+        factory.setPackagesToScan("com.jalkal.noboot");
         Properties jpaProperties = new Properties();
         jpaProperties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
         factory.setJpaProperties(jpaProperties);
