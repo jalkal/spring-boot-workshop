@@ -1,5 +1,6 @@
-package com.jalkal.boot;
+package com.jalkal.boot.repo;
 
+import com.jalkal.boot.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer, Integer>

@@ -1,6 +1,6 @@
-package com.jalkal.boot.rest;
+package com.jalkal.boot.web;
 
-import com.jalkal.boot.CustomerRepository;
+import com.jalkal.boot.repo.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
