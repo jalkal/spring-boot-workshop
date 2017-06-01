@@ -1,6 +1,6 @@
-package com.jalkal.noboot.rest;
+package com.jalkal.noboot.web;
 
-import com.jalkal.noboot.CustomerRepository;
+import com.jalkal.noboot.repo.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

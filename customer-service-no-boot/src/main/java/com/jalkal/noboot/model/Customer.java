@@ -1,4 +1,4 @@
-package com.jalkal.noboot;
+package com.jalkal.noboot.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
